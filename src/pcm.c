@@ -287,6 +287,11 @@ static unsigned int pcm_format_to_alsa(enum pcm_format format)
         return SNDRV_PCM_FORMAT_FLOAT_LE;
     case PCM_FORMAT_FLOAT_BE:
         return SNDRV_PCM_FORMAT_FLOAT_BE;
+
+    case PCM_FORMAT_DSD_U32_LE:
+        return SNDRV_PCM_FORMAT_DSD_U32_LE;
+    case PCM_FORMAT_DSD_U32_BE:
+        return SNDRV_PCM_FORMAT_DSD_U32_BE;
     };
 }
 
@@ -560,6 +565,8 @@ unsigned int pcm_format_to_bits(enum pcm_format format)
     case PCM_FORMAT_S24_BE:
     case PCM_FORMAT_FLOAT_LE:
     case PCM_FORMAT_FLOAT_BE:
+    case PCM_FORMAT_DSD_U32_LE:
+    case PCM_FORMAT_DSD_U32_BE:
         return 32;
     case PCM_FORMAT_S24_3LE:
     case PCM_FORMAT_S24_3BE:

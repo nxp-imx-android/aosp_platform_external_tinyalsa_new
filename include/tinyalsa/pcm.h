@@ -182,6 +182,10 @@ enum pcm_format {
     PCM_FORMAT_FLOAT_LE,
     /** 32-bit float, big endian */
     PCM_FORMAT_FLOAT_BE,
+    /** 32-bit DSD, little endian */
+    PCM_FORMAT_DSD_U32_LE,
+    /** 32-bit DSD, big endian */
+    PCM_FORMAT_DSD_U32_BE,
     /** Max of the enumeration list, not an actual format. */
     PCM_FORMAT_MAX
 };
