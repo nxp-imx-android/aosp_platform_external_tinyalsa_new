@@ -1,0 +1,7 @@
+Repository:                platform/external/tinyalsa_new
+Outgoing License:          BSD-3-clause
+License File:              LICENSE
+Description and comments:  A small library to interface with ALSA in the Linux kernel
+Release Location:          https://github.com/nxp-imx-android/aosp_platform_external_tinyalsa_new
+Origin:                    NXP (BSD-3-clause)
+                           The Android Open Source Project (BSD-3-clause) - https://source.android.com/
